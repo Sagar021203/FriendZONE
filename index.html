@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreindZone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c39ac93c74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!----------NAVBAR------------------>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"> 
+            <img src="imgs/newlogo.png" class="logo"></a>
+            <ul>
+                <li><img src="imgs/notification.png"></li>
+                <li><img src="imgs/inbox.png"></li>
+                <li><img src="imgs/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imgs/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="imgs/profile-pic.png">
+            </div>
+        </div>
+        <!------------------- settings-menu-------------------->
+        <div class="settings-menu">
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="imgs/profile-pic.png">
+                    <div>
+                        <p>Bhupendra jogi</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="imgs/feedback.png">
+                    <div>
+                        <p>Feedback</p>
+                        <a href="#">Help us to improve </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="imgs/setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/help.png" class="setting-icon">
+                    <a href="#">Help & support <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/display.png" class="setting-icon">
+                    <a href="#">Display <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/logout.png" class="setting-icon">
+                    <a href="#">Log out <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+      
+            </div>
+        </div>
+
+    </nav>
+    <!------------------- CONTAINER-------------------->
+    <div class="container">
+        <!-----------------LEFT-SIDEBAR--------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="imgs/news.png" alt="">Latest news</a>
+                <a href="#"><img src="imgs/friends.png" alt="">Friends</a>
+                <a href="#"><img src="imgs/group.png" alt="">Groups</a>
+                <a href="#"><img src="imgs/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="imgs/watch.png" alt="">Watch</a>
+                <a href="#">SEE MORE</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="imgs/shortcut-1.png" alt="">Web developers</a>
+                <a href="#"><img src="imgs/shortcut-2.png" alt="">Web designn Course</a>
+                <a href="#"><img src="imgs/shortcut-3.png" alt="">Full stack devlopment</a>
+                <a href="#"><img src="imgs/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+        <!-----------------MAIN-CONTENT---------------------------------->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1 ">
+                    <img src="imgs/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="imgs/member-1.png">
+                    <p>Deepa</p>
+                </div>
+                <div class="story story3">
+                    <img src="imgs/member-2.png">
+                    <p>Deepak</p>
+                </div>
+                <div class="story story4">
+                    <img src="imgs/member-3.png">
+                    <p>Ramya</p>
+                </div>
+                <div class="story story5">
+                    <img src="imgs/member-4.png">
+                    <p>Ram</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="imgs/profile-pic.png">
+                    <div>
+                        <p>Bhupendra Jogi</p>
+                        <small>Public<i class="fa-solid fa-angle-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?  "></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="imgs/live-video.png">Live Video</a>
+                        <a href="#"><img src="imgs/photo.png">Photo/Video</a>
+                        <a href="#"><img src="imgs/feeling.png">Feeling/Acting</a>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Bhupendra Jogi</p>
+                            <span>28 Oct 2023, 14:30 p.m</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p class="post-text"><span>Stay updated</span> with my latest adventures and insights. Follow me on
+                    FriendZone for a daily dose of
+                    inspiration and connection <a href="#">##Follow</a><a href="#">#like</a></p>
+                <img src="imgs/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="imgs/like-blue.png">99</div>
+                        <div><img src="imgs/comments.png">55</div>
+                        <div><img src="imgs/share.png">40</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Bhupendra Jogi</p>
+                            <span>28 Oct 2023, 14:30 p.m</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p class="post-text"><span>Share</span>
+
+                </p>
+                <img src="imgs/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="imgs/like.png">99</div>
+                        <div><img src="imgs/comments.png">55</div>
+                        <div><img src="imgs/share.png">40</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Bhupendra Jogi</p>
+                            <span>28 Oct 2023, 14:30 p.m</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p class="post-text"><span>Share</span>
+
+                </p>
+                <img src="imgs/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="imgs/like.png">99</div>
+                        <div><img src="imgs/comments.png">55</div>
+                        <div><img src="imgs/share.png">40</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Bhupendra Jogi</p>
+                            <span>28 Oct 2023, 14:30 p.m</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                <p class="post-text"><span>Share</span>
+
+                </p>
+                <img src="imgs/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="imgs/like.png">99</div>
+                        <div><img src="imgs/comments.png">55</div>
+                        <div><img src="imgs/share.png">40</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="load-more-btn" type="button">Load More</button>
+
+        </div>
+        <!-------------------RIGHT-SIDEBAR------------------------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>EVENTs</h4>
+                <a href="">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3><span>MARCH</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Hinduja college ground</p>
+                    <a href="#">More info</a>
+                </div>
+
+
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3><span>MARCH</span>
+                </div>
+                <div class="right-event">
+                    <h4>Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Hinduja college ground</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>ADVERTISEMENT</h4>
+                <a href="">Close</a>
+            </div>
+            <img src="imgs/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>CONVERSATIONS</h4>
+                <a href="">HIde CHat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imgs/member-1.png">
+                </div>
+                <p>Deepa </p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imgs/member-2.png">
+                </div>
+                <p>Deepak </p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imgs/member-3.png">
+                </div>
+                <p>Ramya</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2023 - FriendZone&CO</p>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
