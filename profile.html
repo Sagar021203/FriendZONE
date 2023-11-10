@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendZone-Profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c39ac93c74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!----------NAVBAR------------------>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="imgs/newlogo.png" class="logo"></a>
+            <ul>
+                <li><img src="imgs/notification.png"></li>
+                <li><img src="imgs/inbox.png"></li>
+                <li><img src="imgs/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imgs/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="imgs/profile-pic.png">
+            </div>
+        </div>
+        <!------------------- settings-menu-------------------->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="imgs/profile-pic.png">
+                    <div>
+                        <p>Bhupendra jogi</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="imgs/feedback.png">
+                    <div>
+                        <p>Feedback</p>
+                        <a href="#">Help us to improve </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="imgs/setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/help.png" class="setting-icon">
+                    <a href="#">Help & support <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/display.png" class="setting-icon">
+                    <a href="#">Display <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="imgs/logout.png" class="setting-icon">
+                    <a href="#">Log out <img src="imgs/arrow.png" width="10px"> </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--------------------profile=page------------------->
+    <div class="profile-container">
+        <img src="imgs/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="imgs/profile.png" class="pd-image">
+                    <div>
+                        <h3>Bhupendra jogi</h3>
+                        <p>140 Friends - 10 mutuals </p>
+                        <img src="imgs/member-1.png">
+                        <img src="imgs/member-2.png">
+                        <img src="imgs/member-3.png">
+                        <img src="imgs/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="imgs/add-friends.png">Add</button>
+                <button type="button"><img src="imgs/message.png">message</button>
+                <br>
+                <a href="#"> <img src="imgs/more.png"></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-bio">
+                    <h3>Bio~</h3>
+                    <p>Exploring the digital realm and connecting with amazing souls. Let's share stories, laughter,
+                        and make this online journey memorable!🚀</p>
+                    <hr>
+                    <ul>
+                        <li>📍Based in [Mumbai</li>
+                        <li>🎓Studying BCA at YCMOU</li>
+                        <li>📚Passionate about Music</li>
+                    </ul>
+                </div>
+                <div class="profile-bio">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="imgs/photo1.png"></div>
+                        <div><img src="imgs/photo2.png"></div>
+                        <div><img src="imgs/photo3.png"></div>
+                        <div><img src="imgs/photo4.png"></div>
+                        <div><img src="imgs/photo5.png"></div>
+                        <div><img src="imgs/photo6.png"></div>
+                    </div>
+                </div>
+                <div class="profile-bio">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                    </div>
+                    <p>140-(10 mutuals)</p>
+                    <div class="friends-box">
+                        <div><img src="imgs/member-1.png"></div>
+                        <div><img src="imgs/member-2.png"></div>
+                        <div><img src="imgs/member-3.png"></div>
+                        <div><img src="imgs/member-4.png"></div>
+                        <div><img src="imgs/member-5.png"></div>
+                        <div><img src="imgs/member-6.png"></div>
+                        <div><img src="imgs/member-7.png"></div>
+                        <div><img src="imgs/member-8.png"></div>
+                        <div><img src="imgs/member-9.png"></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="imgs/profile-pic.png">
+                        <div>
+                            <p>Bhupendra Jogi</p>
+                            <small>Public<i class="fa-solid fa-angle-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind?  "></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="imgs/live-video.png">Live Video</a>
+                            <a href="#"><img src="imgs/photo.png">Photo/Video</a>
+                            <a href="#"><img src="imgs/feeling.png">Feeling/Acting</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Bhupendra Jogi</p>
+                                <span>28 Oct 2023, 14:30 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    <p class="post-text"><span>Stay updated</span> with my latest adventures and insights. Follow me on
+                        FriendZone for a daily dose of
+                        inspiration and connection <a href="#">##Follow</a><a href="#">#like</a></p>
+                    <img src="imgs/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like-blue.png">99</div>
+                            <div><img src="imgs/comments.png">55</div>
+                            <div><img src="imgs/share.png">40</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Bhupendra Jogi</p>
+                                <span>28 Oct 2023, 14:30 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    <p class="post-text"><span>Share</span>
+
+                    </p>
+                    <img src="imgs/feed-image-1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like.png">99</div>
+                            <div><img src="imgs/comments.png">55</div>
+                            <div><img src="imgs/share.png">40</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Bhupendra Jogi</p>
+                                <span>28 Oct 2023, 14:30 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    <p class="post-text"><span>Share</span>
+
+                    </p>
+                    <img src="imgs/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like.png">99</div>
+                            <div><img src="imgs/comments.png">55</div>
+                            <div><img src="imgs/share.png">40</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="imgs/profile-pic.png">
+                            <div>
+                                <p>Bhupendra Jogi</p>
+                                <span>28 Oct 2023, 14:30 p.m</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    <p class="post-text"><span>Share</span>
+
+                    </p>
+                    <img src="imgs/feed-image-4.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imgs/like.png">99</div>
+                            <div><img src="imgs/comments.png">55</div>
+                            <div><img src="imgs/share.png">40</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Copyright 2023 - FriendZone&CO</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
