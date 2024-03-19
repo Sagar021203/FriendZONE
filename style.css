@@ -1,16 +1,4 @@
-@media (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for screens between 769px and 1024px wide */
-}
-
-
-
-
-
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -449,9 +437,16 @@ nav {
     justify-content: space-between;
 }
 
-.activity-icons div img {
+/*.activity-icons div img {
     width: 20px;
     margin-right: 10px;
+}*/
+.activity-icons div i:first-child{
+    margin-left: 10px;
+     
+}
+.activity-icons div i{
+    color: gray;
 }
 
 .activity-icons div {
@@ -832,6 +827,7 @@ nav {
     .post-input-container {
         padding-left: 0;
     }
+    
 
 }
 
