@@ -1,7 +1,17 @@
 
 var settingsmenutoggle = document.querySelector('.settings-menu');
 var darkbtn = document.getElementById('dark-btn');
+var likeunlike = document.querySelector('.ri-thumb-up-fill')
+ 
+ 
+var likeUnlikeButtons = document.querySelectorAll('.ri-thumb-up-fill'); // Select all like buttons
 
+likeUnlikeButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+        button.style.color = button.style.color === 'gray' ? '#551161' : 'gray'; // Toggle color
+    });
+});
+ 
 
 function settingsMenuToggle() {
    settingsmenutoggle.classList.toggle('settings-menu-height')
@@ -31,3 +41,6 @@ else if (localStorage.getItem('theme') == 'dark') {
 else {
    localStorage.setItem('theme', 'light')
 }
+
+
+ 
