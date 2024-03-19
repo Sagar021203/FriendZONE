@@ -14,7 +14,7 @@
     <nav>
         <div class="nav-left">
             <a href="index.html">
-            <img src="imgs/newlogo.png" class="logo"></a>
+                <img src="imgs/newlogo.png" class="logo"></a>
             <ul>
                 <li><img src="imgs/notification.png"></li>
                 <li><img src="imgs/inbox.png"></li>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="pd-right">
-                <button type="button"><img src="imgs/add-friends.png">Add</button>
+                <button type="button" id="addbtn"><img src="imgs/add-friends.png">Add</button>
                 <button type="button"><img src="imgs/message.png">message</button>
                 <br>
                 <a href="#"> <img src="imgs/more.png"></a>
@@ -113,7 +113,7 @@
                 <div class="profile-bio">
                     <div class="title-box">
                         <h3>Photos</h3>
-                    <a href="#">All Photos</a>
+                        <a href="#">All Photos</a>
                     </div>
                     <div class="photo-box">
                         <div><img src="imgs/photo1.png"></div>
@@ -127,7 +127,7 @@
                 <div class="profile-bio">
                     <div class="title-box">
                         <h3>Friends</h3>
-                    <a href="#">All Friends</a>
+                        <a href="#">All Friends</a>
                     </div>
                     <p>140-(10 mutuals)</p>
                     <div class="friends-box">
@@ -140,7 +140,7 @@
                         <div><img src="imgs/member-7.png"></div>
                         <div><img src="imgs/member-8.png"></div>
                         <div><img src="imgs/member-9.png"></div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -183,9 +183,9 @@
                     <img src="imgs/feed-image-2.png" class="post-img">
                     <div class="post-row">
                         <div class="activity-icons">
-                            <div><img src="imgs/like-blue.png">99</div>
-                            <div><img src="imgs/comments.png">55</div>
-                            <div><img src="imgs/share.png">40</div>
+                            <div><i class="ri-thumb-up-fill" id="likeunlike"></i></div>
+                            <div><i class="ri-question-answer-line"></i></div>
+                            <div><i class="ri-share-forward-line"></i></div>
                         </div>
                         <div class="post-profile-icons">
                             <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
@@ -212,9 +212,9 @@
                     <img src="imgs/feed-image-1.png" class="post-img">
                     <div class="post-row">
                         <div class="activity-icons">
-                            <div><img src="imgs/like.png">99</div>
-                            <div><img src="imgs/comments.png">55</div>
-                            <div><img src="imgs/share.png">40</div>
+                            <div><i class="ri-thumb-up-fill" id="likeunlike"></i></div>
+                            <div><i class="ri-question-answer-line"></i></div>
+                            <div><i class="ri-share-forward-line"></i></div>
                         </div>
                         <div class="post-profile-icons">
                             <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
@@ -241,9 +241,9 @@
                     <img src="imgs/feed-image-3.png" class="post-img">
                     <div class="post-row">
                         <div class="activity-icons">
-                            <div><img src="imgs/like.png">99</div>
-                            <div><img src="imgs/comments.png">55</div>
-                            <div><img src="imgs/share.png">40</div>
+                            <div><i class="ri-thumb-up-fill" id="likeunlike"></i></div>
+                            <div><i class="ri-question-answer-line"></i></div>
+                            <div><i class="ri-share-forward-line"></i></div>
                         </div>
                         <div class="post-profile-icons">
                             <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
@@ -270,9 +270,9 @@
                     <img src="imgs/feed-image-4.png" class="post-img">
                     <div class="post-row">
                         <div class="activity-icons">
-                            <div><img src="imgs/like.png">99</div>
-                            <div><img src="imgs/comments.png">55</div>
-                            <div><img src="imgs/share.png">40</div>
+                            <div><i class="ri-thumb-up-fill" id="likeunlike"></i></div>
+                            <div><i class="ri-question-answer-line"></i></div>
+                            <div><i class="ri-share-forward-line"></i></div>
                         </div>
                         <div class="post-profile-icons">
                             <img src="imgs/profile-pic.png"><i class="fa-solid fa-angle-down"></i>
@@ -289,6 +289,7 @@
     <div class="footer">
         <p>Copyright 2023 - FriendZone&CO</p>
     </div>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="script.js"></script>
 </body>
 
